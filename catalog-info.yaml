@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: saas-codetests
+  annotations:
+    github.com/project-slug: SnowSoftwareGlobal/saas-codetests
+    devops.io/handled-by: repo-as-code
+    devops.io/version: v1
+    sonarqube.org/project-key: saas-codetests
+    circleci.com/project-slug: github/SnowSoftwareGlobal/saas-codetests
+  tags:
+    - atlas
+    - az-ug-github-saas
+spec:
+  type: service
+  lifecycle: unknown
+  owner: default/az-ug-github-saas
+
